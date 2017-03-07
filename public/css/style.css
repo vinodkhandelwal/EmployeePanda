@@ -1,0 +1,279 @@
+/* Empty. Add your own CSS if you like */
+.employeePandaLogo
+{
+    margin: 0 auto;
+}
+
+/* Rating Style */
+
+.star-rating {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.star-rating .star {
+  padding: 1px;
+  color: #ddd;
+  font-size: 20px;
+  text-shadow: .05em .05em #aaa;
+  list-style-type: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.star-rating .star.filled {
+  color: #fd0;
+}
+.star-rating.readonly .star.filled {
+  color: #666;
+}
+
+/* Rating Style */
+
+/* Input Type Number */
+.inputTypeNumber{
+  background: gainsboro;
+  text-align: center;
+  width:30px;
+  display: inline-block !important;
+}
+
+/* Generic */
+.divContentCenter
+{
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.checkoutBand
+{
+  background-color: gainsboro;
+}
+
+#ionicCheckoutBand.item {
+    background-color: gainsboro;
+}
+
+.displayBlock
+{
+    display: block;
+}
+
+.displayNone
+{
+    display: none;
+}
+
+.vegNonvegIcon
+{
+    height: 20px;
+    width: 20px;
+}
+
+.bar-footer {
+    background-color:#ffc900
+}
+
+.list:last-child {
+    margin-bottom: 35px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  background: #ffc800;
+  background-image: -webkit-linear-gradient(top, #ffc800, #d1a402);
+  background-image: -moz-linear-gradient(top, #ffc800, #d1a402);
+  background-image: -ms-linear-gradient(top, #ffc800, #d1a402);
+  background-image: -o-linear-gradient(top, #ffc800, #d1a402);
+  background-image: linear-gradient(to bottom, #ffc800, #d1a402);
+  -webkit-box-shadow: 2px 2px 3px #000000;
+  -moz-box-shadow: 2px 2px 3px #000000;
+  box-shadow: 2px 2px 3px #000000;
+  color: #000000;
+  padding: 0px 0px 0px 0px;
+  border: solid #000000 5px;
+  text-decoration: none;
+  /* width and height can be anything, as long as they're equal */
+}
+
+.circle:hover, .circle:active
+{
+  background: #b38c00;
+  background-image: -webkit-linear-gradient(top, #b38c00, #ffc900);
+  background-image: -moz-linear-gradient(top, #b38c00, #ffc900);
+  background-image: -ms-linear-gradient(top, #b38c00, #ffc900);
+  background-image: -o-linear-gradient(top, #b38c00, #ffc900);
+  background-image: linear-gradient(to bottom, #b38c00, #ffc900);
+  text-decoration: none;
+}
+
+.loginview {
+    background-image: url("../img/Login_BG.png");
+    background-size: contain;
+}
+
+.loginview img{
+    width:175px;
+}
+
+.loginbox {
+    /*margin-top: 80px;*/
+       background: none;
+       /* top: 180px; */
+        width: 95%;
+       bottom: 0;
+}
+.scroll-content {
+    background: url(../img/AppBackground.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto;
+    z-index: 2;
+    margin-bottom: 60px;
+}
+.bar, .bar .title {
+    height:60px;
+}
+
+.has-header {
+    top: 60px;
+}
+
+div.transbox {
+    background-color:  black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.locationIcon
+{
+    height: 30px;
+    margin-right: 5px;
+}
+.clockIcon
+{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.qrcode canvas{
+    height: 150px;
+    width: 150px;
+}
+
+.vendoritem{
+    height:200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0;
+}
+
+.vendorlist .item-complex .item-content {
+    padding-right: 16px;
+}
+
+div.vendoritem div.transbox{
+    height:60px;
+    margin-top: 140px;
+    color: white;
+    font-weight: bold;
+}
+
+.listItemHeight
+{
+    height: 40px;
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+.menuItemHeight{
+        height: 70px;
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+}
+
+.totalvalue {
+    font-size: 120%;
+    margin-top: -30px;
+
+}
+
+.button-full-footer {
+    width:100%;
+}
+
+.bellIconStyle
+{
+  width: 50px;
+}
+
+.bellBadgeStyle
+{
+    height: 23px;
+    margin-left: -20px !important;
+}
+
+.textAlignCenter
+{
+  text-align: center;
+}
+
+.orderCard .item
+{
+  background: none !important;
+}
+
+.orderCard
+{
+  background: #E5E5E5;
+}
+
+.readyStatus
+{
+  color: green;
+  font-weight: bold;
+}
+
+.inProgressStatus{}
+
+.alignPendingOrders
+{
+  line-height: 160px;
+}
+
+.tickStyle
+{
+  height: 30px;
+  width: 30px;
+}
+
+.header-item{
+text-align: center !important;
+}
+
+
+.wrap {
+white-space: normal;
+}
+// Vertically Align Center
+
+.imageAlignMiddle
+{
+    position: absolute;
+    height: 100%;
+    top:50%
+}
+
